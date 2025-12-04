@@ -101,19 +101,19 @@ const blogPosts = [
 const techStack = [
     {
         category: "Frontend",
-        items: ["React.js", "Next.js", "TypeScript"],
+        items: ["React.js" /*  , "Next.js", "TypeScript" */],
     },
-    {
+    /* {
         category: "Mobile",
         items: ["React Native", "Expo"],
-    },
+    }, */
     {
         category: "Styling",
-        items: ["Tailwind CSS", "Sass", "CSS"],
+        items: ["CSS", /*, "Sass",  */ "Tailwind CSS"],
     },
     {
         category: "Backend",
-        items: ["Node.js", "Express", "NestJS", "Hono"],
+        items: ["Node.js", "Express.js" /*"NestJS", "Hono" */],
     },
     {
         category: "Database",
@@ -121,7 +121,7 @@ const techStack = [
     },
     {
         category: "Dev Tools",
-        items: ["Git", "GitHub", "Docker"],
+        items: ["Git", "GitHub", "Docker", "Terraform"],
     },
 ];
 
@@ -203,17 +203,6 @@ const gallery = [
     },
 ];
 
-export {
-    navLinks,
-    navIcons,
-    dockApps,
-    blogPosts,
-    techStack,
-    socials,
-    photosLinks,
-    gallery,
-};
-
 const WORK_LOCATION = {
     id: 1,
     type: "work",
@@ -224,7 +213,7 @@ const WORK_LOCATION = {
         // ▶ Project 1
         {
             id: 5,
-            name: "Nike Ecommerce Website Application",
+            name: "Ai Companion",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-5", // icon position inside Finder
@@ -277,7 +266,7 @@ const WORK_LOCATION = {
         // ▶ Project 2
         {
             id: 6,
-            name: "AI Resume Analyzer",
+            name: "Slack Clone",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-52 right-80",
@@ -330,7 +319,7 @@ const WORK_LOCATION = {
         // ▶ Project 3
         {
             id: 7,
-            name: "Food Delivery App",
+            name: "E-commerce App",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-80",
@@ -482,13 +471,6 @@ const TRASH_LOCATION = {
     ],
 };
 
-export const locations = {
-    work: WORK_LOCATION,
-    about: ABOUT_LOCATION,
-    resume: RESUME_LOCATION,
-    trash: TRASH_LOCATION,
-};
-
 const INITIAL_Z_INDEX = 1000;
 
 const WINDOW_CONFIG = {
@@ -503,3 +485,21 @@ const WINDOW_CONFIG = {
 };
 
 export { INITIAL_Z_INDEX, WINDOW_CONFIG };
+
+export const locations = {
+    work: WORK_LOCATION,
+    about: ABOUT_LOCATION,
+    resume: RESUME_LOCATION,
+    trash: TRASH_LOCATION,
+};
+
+export {
+    navLinks,
+    navIcons,
+    dockApps,
+    blogPosts,
+    techStack,
+    socials,
+    photosLinks,
+    gallery,
+};
