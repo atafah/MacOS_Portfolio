@@ -42,6 +42,7 @@ const dockApps = [
         icon: "finder.png",
         canOpen: true,
     },
+
     {
         id: "safari",
         name: "Articles", // was "Safari"
@@ -64,6 +65,30 @@ const dockApps = [
         id: "terminal",
         name: "Skills", // was "Terminal"
         icon: "terminal.png",
+        canOpen: true,
+    },
+    {
+        id: "vscode",
+        name: "vscode", // was "Finder"
+        icon: "vscode.png",
+        canOpen: true,
+    },
+    {
+        id: "xCode",
+        name: "xCode", // was "Finder"
+        icon: "Xcode.png",
+        canOpen: true,
+    },
+    {
+        id: "unity",
+        name: "unity", // was "Finder"
+        icon: "Unity.png",
+        canOpen: true,
+    },
+    {
+        id: "blender",
+        name: "blender", // was "Finder"
+        icon: "blender.png",
         canOpen: true,
     },
     {
@@ -221,7 +246,7 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "Nike Project.txt",
+                    name: "Ai Companion.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
@@ -235,7 +260,7 @@ const WORK_LOCATION = {
                 },
                 {
                     id: 2,
-                    name: "nike.com",
+                    name: "ai-companion.com",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
@@ -274,7 +299,7 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "AI Resume Analyzer Project.txt",
+                    name: "Slack-Clone.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
@@ -288,7 +313,7 @@ const WORK_LOCATION = {
                 },
                 {
                     id: 2,
-                    name: "ai-resume-analyzer.com",
+                    name: "Slack-Clone.com",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
@@ -327,7 +352,7 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "Food Delivery App Project.txt",
+                    name: "Ecommerce-App.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
@@ -341,7 +366,7 @@ const WORK_LOCATION = {
                 },
                 {
                     id: 2,
-                    name: "food-delivery-app.com",
+                    name: "ecommerce-app.com",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
